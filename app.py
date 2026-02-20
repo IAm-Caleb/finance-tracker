@@ -424,11 +424,11 @@
 
 import streamlit as st
 from utils.data_handler import DataHandler
-from components.dashboard import render_dashboard
-from components.transactions import render_transactions
-from components.budgets import render_budgets
-from components.reports import render_reports
-from components.settings import render_settings
+from src.dashboard import render_dashboard
+from src.transactions import render_transactions
+from src.budgets import render_budgets
+from src.reports import render_reports
+from src.settings import render_settings
 
 st.set_page_config(
     page_title="Finance Pro",
